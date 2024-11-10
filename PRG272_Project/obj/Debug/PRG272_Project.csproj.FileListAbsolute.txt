@@ -8,3 +8,14 @@ C:\work onedrive\OneDrive - belgiumcampus.ac.za\Documents\PRG272_Final_Project\P
 C:\work onedrive\OneDrive - belgiumcampus.ac.za\Documents\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.csproj.CoreCompileInputs.cache
 C:\work onedrive\OneDrive - belgiumcampus.ac.za\Documents\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.exe
 C:\work onedrive\OneDrive - belgiumcampus.ac.za\Documents\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.pdb
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\bin\Debug\PRG272_Project.exe.config
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\bin\Debug\PRG272_Project.exe
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\bin\Debug\PRG272_Project.pdb
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.csproj.AssemblyReference.cache
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.frmSignIn.resources
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.Properties.Resources.resources
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.csproj.GenerateResource.cache
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.csproj.CoreCompileInputs.cache
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.exe
+C:\Users\Teblo\Downloads\PRG272_Final_Project\PRG272_Project\obj\Debug\PRG272_Project.pdb

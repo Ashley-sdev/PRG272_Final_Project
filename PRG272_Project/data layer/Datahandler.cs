@@ -21,7 +21,7 @@ namespace PRG272_Project.data_layer
                     writer.WriteLine($"{username},{password}");
                 }
 
-                MessageBox.Show("Signed up successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Signed up successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (Exception err)
@@ -29,6 +29,47 @@ namespace PRG272_Project.data_layer
 
                 MessageBox.Show($"Error occured: {err}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        public void SignIn(string username, string password)
+        {
+            try
+            {
+                if (Validate(username,password))
+                {
+                    MessageBox.Show("Login successful.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception err)
+            {
+
+                MessageBox.Show($"Error occured: {err}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public bool Validate(string username, string password)
+        {
+            if (!File.Exists("UserCredentials.txt"))
+            {
+                MessageBox.Show("User not found. Please sign up first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            string[] data = File.ReadAllLines("UserCredentials.txt");
+            foreach (string line in data)
+            {
+                var credentials = line.Split(',');
+                if (credentials[0] == username && credentials[1] == password)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
