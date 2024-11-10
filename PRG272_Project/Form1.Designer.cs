@@ -40,6 +40,10 @@
             this.lblCourse = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Search_TextBox = new System.Windows.Forms.TextBox();
+            this.Search_by_studentID = new System.Windows.Forms.Button();
+            this.Delete_student = new System.Windows.Forms.Button();
+            this.Update_Student_Details = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +66,7 @@
             this.groupBox1.Controls.Add(this.Age_textBox);
             this.groupBox1.Controls.Add(this.Name_textBox);
             this.groupBox1.Controls.Add(this.StudentID_textBox);
-            this.groupBox1.Location = new System.Drawing.Point(15, 87);
+            this.groupBox1.Location = new System.Drawing.Point(12, 142);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(279, 255);
             this.groupBox1.TabIndex = 1;
@@ -147,18 +151,56 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(300, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(310, 142);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(490, 329);
             this.dataGridView1.TabIndex = 3;
             // 
+            // Search_TextBox
+            // 
+            this.Search_TextBox.Location = new System.Drawing.Point(532, 89);
+            this.Search_TextBox.Name = "Search_TextBox";
+            this.Search_TextBox.Size = new System.Drawing.Size(344, 22);
+            this.Search_TextBox.TabIndex = 4;
+            // 
+            // Search_by_studentID
+            // 
+            this.Search_by_studentID.Location = new System.Drawing.Point(356, 89);
+            this.Search_by_studentID.Name = "Search_by_studentID";
+            this.Search_by_studentID.Size = new System.Drawing.Size(156, 23);
+            this.Search_by_studentID.TabIndex = 5;
+            this.Search_by_studentID.Text = "Search";
+            this.Search_by_studentID.UseVisualStyleBackColor = true;
+            // 
+            // Delete_student
+            // 
+            this.Delete_student.Location = new System.Drawing.Point(30, 404);
+            this.Delete_student.Name = "Delete_student";
+            this.Delete_student.Size = new System.Drawing.Size(75, 23);
+            this.Delete_student.TabIndex = 6;
+            this.Delete_student.Text = "Delete";
+            this.Delete_student.UseVisualStyleBackColor = true;
+            // 
+            // Update_Student_Details
+            // 
+            this.Update_Student_Details.Location = new System.Drawing.Point(161, 404);
+            this.Update_Student_Details.Name = "Update_Student_Details";
+            this.Update_Student_Details.Size = new System.Drawing.Size(75, 23);
+            this.Update_Student_Details.TabIndex = 7;
+            this.Update_Student_Details.Text = "Update";
+            this.Update_Student_Details.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1044, 516);
+            this.Controls.Add(this.Update_Student_Details);
+            this.Controls.Add(this.Delete_student);
+            this.Controls.Add(this.Search_by_studentID);
+            this.Controls.Add(this.Search_TextBox);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
@@ -187,6 +229,10 @@
         private System.Windows.Forms.TextBox StudentID_textBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox Search_TextBox;
+        private System.Windows.Forms.Button Search_by_studentID;
+        private System.Windows.Forms.Button Delete_student;
+        private System.Windows.Forms.Button Update_Student_Details;
     }
 }
 
