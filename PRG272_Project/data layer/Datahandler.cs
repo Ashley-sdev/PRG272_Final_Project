@@ -8,6 +8,6 @@ namespace PRG272_Project.data_layer
 {
     internal class Datahandler
     {
-        //TESTING
+        string TESING = "TESTING GITBUT PUSH";
     }
 }
