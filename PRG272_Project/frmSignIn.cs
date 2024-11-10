@@ -26,10 +26,12 @@ namespace PRG272_Project
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            if (string.IsNullOrEmpty(username) || )
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-
+                MessageBox.Show("Username and password field cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            dh.SignUp(username, password);
         }
     }
 }
