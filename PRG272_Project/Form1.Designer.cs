@@ -44,8 +44,12 @@
             this.Search_by_studentID = new System.Windows.Forms.Button();
             this.Delete_student = new System.Windows.Forms.Button();
             this.Update_Student_Details = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_All_Students = new System.Windows.Forms.Button();
+            this.Summary = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -141,7 +145,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(258, 20);
+            this.label2.Location = new System.Drawing.Point(289, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(532, 29);
             this.label2.TabIndex = 2;
@@ -160,16 +164,18 @@
             // 
             // Search_TextBox
             // 
-            this.Search_TextBox.Location = new System.Drawing.Point(532, 89);
+            this.Search_TextBox.Location = new System.Drawing.Point(442, 89);
             this.Search_TextBox.Name = "Search_TextBox";
-            this.Search_TextBox.Size = new System.Drawing.Size(344, 22);
+            this.Search_TextBox.Size = new System.Drawing.Size(358, 22);
             this.Search_TextBox.TabIndex = 4;
+            this.Search_TextBox.Text = "Enter StudentID";
+            this.Search_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Search_by_studentID
             // 
-            this.Search_by_studentID.Location = new System.Drawing.Point(356, 89);
+            this.Search_by_studentID.Location = new System.Drawing.Point(310, 89);
             this.Search_by_studentID.Name = "Search_by_studentID";
-            this.Search_by_studentID.Size = new System.Drawing.Size(156, 23);
+            this.Search_by_studentID.Size = new System.Drawing.Size(98, 23);
             this.Search_by_studentID.TabIndex = 5;
             this.Search_by_studentID.Text = "Search";
             this.Search_by_studentID.UseVisualStyleBackColor = true;
@@ -192,11 +198,41 @@
             this.Update_Student_Details.Text = "Update";
             this.Update_Student_Details.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.Summary);
+            this.groupBox2.Controls.Add(this.btn_All_Students);
+            this.groupBox2.Location = new System.Drawing.Point(844, 213);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(287, 164);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "View";
+            // 
+            // btn_All_Students
+            // 
+            this.btn_All_Students.Location = new System.Drawing.Point(38, 45);
+            this.btn_All_Students.Name = "btn_All_Students";
+            this.btn_All_Students.Size = new System.Drawing.Size(134, 23);
+            this.btn_All_Students.TabIndex = 0;
+            this.btn_All_Students.Text = "All Students";
+            this.btn_All_Students.UseVisualStyleBackColor = true;
+            // 
+            // Summary
+            // 
+            this.Summary.Location = new System.Drawing.Point(38, 98);
+            this.Summary.Name = "Summary";
+            this.Summary.Size = new System.Drawing.Size(134, 23);
+            this.Summary.TabIndex = 9;
+            this.Summary.Text = "Summary";
+            this.Summary.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1044, 516);
+            this.ClientSize = new System.Drawing.Size(1185, 591);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Update_Student_Details);
             this.Controls.Add(this.Delete_student);
             this.Controls.Add(this.Search_by_studentID);
@@ -210,6 +246,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,6 +270,9 @@
         private System.Windows.Forms.Button Search_by_studentID;
         private System.Windows.Forms.Button Delete_student;
         private System.Windows.Forms.Button Update_Student_Details;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btn_All_Students;
+        private System.Windows.Forms.Button Summary;
     }
 }
 
