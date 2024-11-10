@@ -16,5 +16,10 @@ namespace PRG272_Project
         {
             InitializeComponent();
         }
+
+        private void Delete_student_Click(object sender, EventArgs e)
+        {
+            string hrllo= "hello";
+;        }
     }
 }
