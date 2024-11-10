@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|solutionrelative:prg272_project\\data layer\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|c:\\users\\danny\\downloads\\emptyproject\\prg272_project\\business logic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|C:\\Users\\danny\\Downloads\\EMPTYPROJECT\\prg272_project\\business logic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|solutionrelative:prg272_project\\business logic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|c:\\users\\danny\\downloads\\emptyproject\\prg272_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|C:\\Users\\danny\\Downloads\\EMPTYPROJECT\\prg272_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|solutionrelative:prg272_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|c:\\users\\danny\\downloads\\emptyproject\\prg272_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|C:\\Users\\danny\\Downloads\\EMPTYPROJECT\\prg272_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F173E8-F7AA-4338-9FFC-F226AE8D11BD}|PRG272_Project\\PRG272_Project.csproj|solutionrelative:prg272_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -78,8 +78,7 @@
               "RelativeToolTip": "PRG272_Project\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:45:35.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T16:45:35.783Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "ToolTip": "C:\\Users\\danny\\Downloads\\EMPTYPROJECT\\PRG272_Project\\Form1.cs [Design]",
               "RelativeToolTip": "PRG272_Project\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:33:51.23Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-10T16:33:51.23Z"
             }
           ]
         }
